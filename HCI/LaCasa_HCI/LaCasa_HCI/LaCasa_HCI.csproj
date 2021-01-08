@@ -58,6 +58,24 @@
     <Compile Include="HomeControl.Designer.cs">
       <DependentUpon>HomeControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="MontanaControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MontanaControl.Designer.cs">
+      <DependentUpon>MontanaControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MrkvaControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MrkvaControl.Designer.cs">
+      <DependentUpon>MrkvaControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PasaControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PasaControl.Designer.cs">
+      <DependentUpon>PasaControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RestaurantsContorl.cs">
@@ -71,6 +89,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="HomeControl.resx">
       <DependentUpon>HomeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MontanaControl.resx">
+      <DependentUpon>MontanaControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MrkvaControl.resx">
+      <DependentUpon>MrkvaControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PasaControl.resx">
+      <DependentUpon>PasaControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
