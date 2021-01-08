@@ -18,11 +18,15 @@ namespace LaCasa_HCI
             sidePanel.Height = button1.Height;
             sidePanel.Top = button1.Top;
             homeControl1.BringToFront();
+
+            restaurantsContorl1.mrk = mrkvaControl1;
+            restaurantsContorl1.montana = montanaControl1;
+            restaurantsContorl1.pasa = pasaControl1;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+           
         }
 
         private void panel4_Paint(object sender, PaintEventArgs e)
@@ -42,6 +46,11 @@ namespace LaCasa_HCI
             sidePanel.Height = button2.Height;
             sidePanel.Top = button2.Top;
             restaurantsContorl1.BringToFront();
+        }
+
+        private void restaurantsContorl1_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }

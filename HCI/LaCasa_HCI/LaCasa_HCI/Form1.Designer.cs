@@ -48,8 +48,11 @@ namespace LaCasa_HCI
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
-            this.homeControl1 = new LaCasa_HCI.HomeControl();
+            this.montanaControl1 = new LaCasa_HCI.MontanaControl();
+            this.mrkvaControl1 = new LaCasa_HCI.MrkvaControl();
             this.restaurantsContorl1 = new LaCasa_HCI.RestaurantsContorl();
+            this.homeControl1 = new LaCasa_HCI.HomeControl();
+            this.pasaControl1 = new LaCasa_HCI.PasaControl();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -305,6 +308,30 @@ namespace LaCasa_HCI
             this.button8.UseVisualStyleBackColor = false;
             this.button8.Click += new System.EventHandler(this.button3_Click);
             // 
+            // montanaControl1
+            // 
+            this.montanaControl1.Location = new System.Drawing.Point(232, 271);
+            this.montanaControl1.Name = "montanaControl1";
+            this.montanaControl1.Size = new System.Drawing.Size(1246, 549);
+            this.montanaControl1.TabIndex = 7;
+            // 
+            // mrkvaControl1
+            // 
+            this.mrkvaControl1.Location = new System.Drawing.Point(232, 271);
+            this.mrkvaControl1.Name = "mrkvaControl1";
+            this.mrkvaControl1.Size = new System.Drawing.Size(1246, 549);
+            this.mrkvaControl1.TabIndex = 6;
+            // 
+            // restaurantsContorl1
+            // 
+            this.restaurantsContorl1.Location = new System.Drawing.Point(232, 271);
+            this.restaurantsContorl1.montana = null;
+            this.restaurantsContorl1.mrk = null;
+            this.restaurantsContorl1.Name = "restaurantsContorl1";
+            this.restaurantsContorl1.Size = new System.Drawing.Size(1246, 549);
+            this.restaurantsContorl1.TabIndex = 5;
+            this.restaurantsContorl1.Load += new System.EventHandler(this.restaurantsContorl1_Load);
+            // 
             // homeControl1
             // 
             this.homeControl1.Location = new System.Drawing.Point(232, 271);
@@ -312,12 +339,12 @@ namespace LaCasa_HCI
             this.homeControl1.Size = new System.Drawing.Size(1246, 549);
             this.homeControl1.TabIndex = 4;
             // 
-            // restaurantsContorl1
+            // pasaControl1
             // 
-            this.restaurantsContorl1.Location = new System.Drawing.Point(232, 271);
-            this.restaurantsContorl1.Name = "restaurantsContorl1";
-            this.restaurantsContorl1.Size = new System.Drawing.Size(1246, 549);
-            this.restaurantsContorl1.TabIndex = 5;
+            this.pasaControl1.Location = new System.Drawing.Point(232, 271);
+            this.pasaControl1.Name = "pasaControl1";
+            this.pasaControl1.Size = new System.Drawing.Size(1246, 549);
+            this.pasaControl1.TabIndex = 8;
             // 
             // Form1
             // 
@@ -325,6 +352,9 @@ namespace LaCasa_HCI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(1478, 820);
+            this.Controls.Add(this.pasaControl1);
+            this.Controls.Add(this.montanaControl1);
+            this.Controls.Add(this.mrkvaControl1);
             this.Controls.Add(this.restaurantsContorl1);
             this.Controls.Add(this.homeControl1);
             this.Controls.Add(this.label3);
@@ -369,6 +399,9 @@ namespace LaCasa_HCI
         private System.Windows.Forms.Button button8;
         private HomeControl homeControl1;
         private RestaurantsContorl restaurantsContorl1;
+        private MrkvaControl mrkvaControl1;
+        private MontanaControl montanaControl1;
+        private PasaControl pasaControl1;
     }
 }
 
