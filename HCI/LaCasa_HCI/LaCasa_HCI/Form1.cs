@@ -26,7 +26,7 @@ namespace LaCasa_HCI
 
         private void button3_Click(object sender, EventArgs e)
         {
-           
+            this.Close();
         }
 
         private void panel4_Paint(object sender, PaintEventArgs e)
