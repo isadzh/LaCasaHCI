@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace LaCasa_HCI
 {
-    public partial class HomeControl : UserControl
+    public partial class MontanaControl : UserControl
     {
-        public HomeControl()
+        public MontanaControl()
         {
             InitializeComponent();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

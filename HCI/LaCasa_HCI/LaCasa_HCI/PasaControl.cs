@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace LaCasa_HCI
 {
-    public partial class HomeControl : UserControl
+    public partial class PasaControl : UserControl
     {
-        public HomeControl()
+        public PasaControl()
         {
             InitializeComponent();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
