@@ -290,7 +290,7 @@ namespace LaCasa_HCI
             this.button10.Size = new System.Drawing.Size(27, 21);
             this.button10.TabIndex = 0;
             this.button10.UseVisualStyleBackColor = false;
-            this.button10.Click += new System.EventHandler(this.button3_Click);
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button8
             // 
@@ -328,6 +328,7 @@ namespace LaCasa_HCI
             this.restaurantsContorl1.montana = null;
             this.restaurantsContorl1.mrk = null;
             this.restaurantsContorl1.Name = "restaurantsContorl1";
+            this.restaurantsContorl1.pasa = null;
             this.restaurantsContorl1.Size = new System.Drawing.Size(1246, 549);
             this.restaurantsContorl1.TabIndex = 5;
             this.restaurantsContorl1.Load += new System.EventHandler(this.restaurantsContorl1_Load);
